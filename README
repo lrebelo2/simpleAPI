@@ -1,0 +1,42 @@
+
+This is an extremely simple API using Spring and SpringBoot
+
+It is literally the project on the Getting Started Page of spring.io, but
+adds some functionality and robustness 
+(in the near future if you are seeing this as I uploaded it, and if so you spend too 
+ much time on GitHub)
+
+
+It returns as a response a request id, a greeting message with optional input parameter
+and the time of the request.
+If the war is run, the server and port should default to localhost:8080.
+You can run it via java -jar simpleAPI.war, or mvn spring-boot:run if you have maven isntalled
+
+Example:
+
+	request-
+		http://localhost:8080/greeting?name=Lucas
+
+	response-
+		{
+		  "id" : 1,
+		  "content" : "Hello Lucas!",
+		  "time" : "21:43:59.805"
+		}
+Usage:
+	
+	<server>/greeting
+	<server>/greeting?name=User // adds custom user name to response body
+
+Yeah. That's all, sorry. =)
+
+
+Although it is very simple, there's some neat good practice features (hopefully):
+
+- 100% Java implemented leveraging the Spring Framework, 
+  packaged as a war to run on a compatible server/jvm. 
+
+- Auto indent on the response body
+
+- Custom error redirecting page (just a simple message explaining usage)
+

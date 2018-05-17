@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: simpleAPI Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: lucas
+Implementation-Vendor-Id: com.rebelo
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://github.com/lrebelo2/simpleAPI
+Created-By: Maven Integration for Eclipse
+
